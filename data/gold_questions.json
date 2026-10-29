@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Q01",
+    "question": "Python 字典如何通过键读取值？",
+    "relevant_topics": [
+      "dict"
+    ],
+    "reference_answer": "可以使用 data[key] 或 data.get(key)。"
+  },
+  {
+    "id": "Q02",
+    "question": "key 不存在时如何安全获取字典中的值？",
+    "relevant_topics": [
+      "dict"
+    ],
+    "reference_answer": "可以使用 data.get(key) 安全查找。"
+  },
+  {
+    "id": "Q03",
+    "question": "Python 列表与元组哪个可以修改？",
+    "relevant_topics": [
+      "list"
+    ],
+    "reference_answer": "列表可修改，元组创建后不能修改其元素。"
+  },
+  {
+    "id": "Q04",
+    "question": "列表和 tuple 能按索引访问吗？",
+    "relevant_topics": [
+      "list"
+    ],
+    "reference_answer": "列表和元组都能按索引访问。"
+  },
+  {
+    "id": "Q05",
+    "question": "Python 函数用什么关键字定义？",
+    "relevant_topics": [
+      "function"
+    ],
+    "reference_answer": "使用 def 定义。"
+  },
+  {
+    "id": "Q06",
+    "question": "return 在函数里是什么作用？",
+    "relevant_topics": [
+      "function"
+    ],
+    "reference_answer": "返回结果并结束当前函数调用。"
+  },
+  {
+    "id": "Q07",
+    "question": "程序出现异常时如何捕获？",
+    "relevant_topics": [
+      "exception"
+    ],
+    "reference_answer": "使用 try/except 捕获并处理异常。"
+  },
+  {
+    "id": "Q08",
+    "question": "finally 可以用来做什么？",
+    "relevant_topics": [
+      "exception"
+    ],
+    "reference_answer": "finally 可用于资源清理。"
+  },
+  {
+    "id": "Q09",
+    "question": "如何把 JSON 字符串转换为 Python 对象？",
+    "relevant_topics": [
+      "json"
+    ],
+    "reference_answer": "使用 json.loads。"
+  },
+  {
+    "id": "Q10",
+    "question": "Python 如何把对象序列化为 JSON 字符串？",
+    "relevant_topics": [
+      "json"
+    ],
+    "reference_answer": "使用 json.dumps。"
+  },
+  {
+    "id": "Q11",
+    "question": "什么是 RAG 的 Chunk？",
+    "relevant_topics": [
+      "chunk"
+    ],
+    "reference_answer": "将长文档分成较短的文本片段。"
+  },
+  {
+    "id": "Q12",
+    "question": "chunk_overlap 表示什么？",
+    "relevant_topics": [
+      "chunk"
+    ],
+    "reference_answer": "相邻文本块之间重叠的部分。"
+  },
+  {
+    "id": "Q13",
+    "question": "余弦相似度为什么用于向量比较？",
+    "relevant_topics": [
+      "cosine"
+    ],
+    "reference_answer": "衡量两个向量在向量空间中的方向接近程度。"
+  },
+  {
+    "id": "Q14",
+    "question": "余弦相似度的计算依据是什么？",
+    "relevant_topics": [
+      "cosine"
+    ],
+    "reference_answer": "向量点积除以各自范数的乘积。"
+  },
+  {
+    "id": "Q15",
+    "question": "Embedding 在语义检索中有什么用？",
+    "relevant_topics": [
+      "embedding"
+    ],
+    "reference_answer": "将文本映射为固定维度数值向量，用于语义搜索。"
+  },
+  {
+    "id": "Q16",
+    "question": "向量数据库通常保存哪些数据？",
+    "relevant_topics": [
+      "vector_db"
+    ],
+    "reference_answer": "保存文档向量和来源等元数据。"
+  },
+  {
+    "id": "Q17",
+    "question": "Top-K 检索中的 K 代表什么？",
+    "relevant_topics": [
+      "top_k"
+    ],
+    "reference_answer": "返回的候选文档数量上限。"
+  },
+  {
+    "id": "Q18",
+    "question": "BM25 检索更擅长利用哪些信息？",
+    "relevant_topics": [
+      "bm25"
+    ],
+    "reference_answer": "关键词、词频以及文档长度等统计信息。"
+  },
+  {
+    "id": "Q19",
+    "question": "Rerank 与第一阶段召回的关系是什么？",
+    "relevant_topics": [
+      "rerank"
+    ],
+    "reference_answer": "对第一阶段的候选文档重新打分与排序。"
+  },
+  {
+    "id": "Q20",
+    "question": "Cross-Encoder 在 Rerank 中如何使用？",
+    "relevant_topics": [
+      "rerank"
+    ],
+    "reference_answer": "结合查询和候选文档进行匹配并重新打分。"
+  }
+]

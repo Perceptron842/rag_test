@@ -1,0 +1,22 @@
+# Never commit secrets or local databases
+.env
+.env.*
+!.env.example
+chroma_db/
+*.sqlite3
+*.db
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+outputs/*.csv
+outputs/*.json
+outputs/*.md
+*.log
+.DS_Store
+# Avoid accidentally committing large model weights
+*.safetensors
+*.pth
+*.pt

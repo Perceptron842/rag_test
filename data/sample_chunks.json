@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Python 字典 dict 使用键值对存储数据。通过 data[key] 读取值，或者用 data.get(key) 安全查找。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 0,
+    "topic": "dict"
+  },
+  {
+    "text": "Python 列表 list 可以修改，元组 tuple 创建后不能修改其元素，两者都能够按照索引访问。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 1,
+    "topic": "list"
+  },
+  {
+    "text": "Python 函数通过 def 定义。return 用于返回函数计算结果并结束当前函数调用。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 2,
+    "topic": "function"
+  },
+  {
+    "text": "try/except 用于捕获并处理 Python 程序运行时抛出的异常，finally 可用于资源清理。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 3,
+    "topic": "exception"
+  },
+  {
+    "text": "Python 使用 json.loads 将 JSON 字符串转为对象，json.dumps 将对象序列化为 JSON 字符串。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 4,
+    "topic": "json"
+  },
+  {
+    "text": "RAG 文本分块 Chunk 将长文档切成较短片段。chunk_overlap 是相邻块之间重复的一段内容。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 5,
+    "topic": "chunk"
+  },
+  {
+    "text": "余弦相似度用两个向量的点积除以各自的范数乘积，衡量它们在向量空间中的方向接近程度。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 6,
+    "topic": "cosine"
+  },
+  {
+    "text": "Embedding 模型将文本编码成固定维度的稠密数值向量，用于语义搜索、聚类或相似度计算。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 7,
+    "topic": "embedding"
+  },
+  {
+    "text": "向量数据库保存文档向量以及来源等元数据，提供近邻搜索能力，常见实现有 Chroma 和 Milvus。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 8,
+    "topic": "vector_db"
+  },
+  {
+    "text": "Top-K 检索把候选文档按照相似性排序，返回最相关的 K 个结果。K 越大返回的候选数越多。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 9,
+    "topic": "top_k"
+  },
+  {
+    "text": "BM25 是基于词项匹配与词频、文档长度等因素的排序方法，适合关键词检索。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 10,
+    "topic": "bm25"
+  },
+  {
+    "text": "Rerank 对第一阶段召回的候选重新打分排序，常用 Cross-Encoder 结合查询与文档进行匹配。",
+    "source": "rag_concepts.md",
+    "page": null,
+    "chunk_index": 11,
+    "topic": "rerank"
+  }
+]
